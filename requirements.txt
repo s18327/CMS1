@@ -20,7 +20,7 @@ cssselect2==0.7.0
     # via svglib
 dj-database-url==0.5.0
     # via -r requirements.in
-django==3.2
+django==3.2.16
     # via
     #   -r requirements.in
     #   django-appconf
@@ -183,7 +183,7 @@ tomli==2.0.1
     #   pep517
 unidecode==1.1.2
     # via django-filer
-urllib3==1.25.11
+urllib3==1.26.5
     # via botocore
 uwsgi==2.0.19.1
     # via -r requirements.in
@@ -192,7 +192,7 @@ webencodings==0.5.1
     #   cssselect2
     #   html5lib
     #   tinycss2
-wheel==0.37.1
+wheel==0.38.0
     # via pip-tools
 whitenoise==5.2.0
     # via -r requirements.in
