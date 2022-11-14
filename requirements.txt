@@ -20,7 +20,7 @@ cssselect2==0.7.0
     # via svglib
 dj-database-url==0.5.0
     # via -r requirements.in
-django==3.2
+django==3.2.16
     # via
     #   -r requirements.in
     #   django-appconf
@@ -140,7 +140,7 @@ packaging==21.3
     # via build
 pep517==0.13.0
     # via build
-pillow==9.2.0
+pillow==9.3.0
     # via
     #   djangocms-text-ckeditor
     #   easy-thumbnails
@@ -200,3 +200,4 @@ whitenoise==5.2.0
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
