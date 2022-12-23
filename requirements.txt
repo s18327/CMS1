@@ -192,7 +192,7 @@ webencodings==0.5.1
     #   cssselect2
     #   html5lib
     #   tinycss2
-wheel==0.37.1
+wheel==0.38.0
     # via pip-tools
 whitenoise==5.2.0
     # via -r requirements.in
@@ -200,3 +200,4 @@ whitenoise==5.2.0
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
