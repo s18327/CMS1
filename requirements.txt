@@ -58,7 +58,7 @@ django-cms==3.11.0
     #   djangocms-video
 django-entangled==0.4
     # via djangocms-frontend
-django-filer==2.2.3
+django-filer==3.0.0rc1
     # via
     #   djangocms-file
     #   djangocms-frontend
