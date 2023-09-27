@@ -140,7 +140,7 @@ packaging==21.3
     # via build
 pep517==0.13.0
     # via build
-pillow==9.2.0
+pillow==10.0.1
     # via
     #   djangocms-text-ckeditor
     #   easy-thumbnails
