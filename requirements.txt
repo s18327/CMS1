@@ -140,7 +140,7 @@ packaging==21.3
     # via build
 pep517==0.13.0
     # via build
-pillow==9.2.0
+pillow==10.2.0
     # via
     #   djangocms-text-ckeditor
     #   easy-thumbnails
@@ -157,7 +157,7 @@ pytz==2022.2.1
     # via
     #   -r requirements.in
     #   django
-reportlab==3.6.11
+reportlab==3.6.13
     # via
     #   easy-thumbnails
     #   svglib
