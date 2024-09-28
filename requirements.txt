@@ -20,7 +20,7 @@ cssselect2==0.7.0
     # via svglib
 dj-database-url==0.5.0
     # via -r requirements.in
-django==3.2
+django==4.2.16
     # via
     #   -r requirements.in
     #   django-appconf
@@ -140,7 +140,7 @@ packaging==21.3
     # via build
 pep517==0.13.0
     # via build
-pillow==9.2.0
+pillow==10.3.0
     # via
     #   djangocms-text-ckeditor
     #   easy-thumbnails
@@ -157,7 +157,7 @@ pytz==2022.2.1
     # via
     #   -r requirements.in
     #   django
-reportlab==3.6.11
+reportlab==3.6.13
     # via
     #   easy-thumbnails
     #   svglib
@@ -169,7 +169,7 @@ six==1.16.0
     #   html5lib
     #   orderedmultidict
     #   python-dateutil
-sqlparse==0.4.2
+sqlparse==0.5.0
     # via django
 svglib==1.4.1
     # via easy-thumbnails
@@ -192,7 +192,7 @@ webencodings==0.5.1
     #   cssselect2
     #   html5lib
     #   tinycss2
-wheel==0.37.1
+wheel==0.38.0
     # via pip-tools
 whitenoise==5.2.0
     # via -r requirements.in
@@ -200,3 +200,5 @@ whitenoise==5.2.0
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
