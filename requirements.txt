@@ -20,7 +20,7 @@ cssselect2==0.7.0
     # via svglib
 dj-database-url==0.5.0
     # via -r requirements.in
-django==3.2
+django==4.2.27
     # via
     #   -r requirements.in
     #   django-appconf
@@ -169,7 +169,7 @@ six==1.16.0
     #   html5lib
     #   orderedmultidict
     #   python-dateutil
-sqlparse==0.4.2
+sqlparse==0.5.4
     # via django
 svglib==1.4.1
     # via easy-thumbnails
@@ -183,7 +183,7 @@ tomli==2.0.1
     #   pep517
 unidecode==1.1.2
     # via django-filer
-urllib3==1.25.11
+urllib3==2.6.0
     # via botocore
 uwsgi==2.0.19.1
     # via -r requirements.in
